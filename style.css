@@ -41,3 +41,19 @@ li {
 .data {
   padding: 1rem 0;
 }
+
+.btn-post {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin-left: 14.7rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.container-post {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px white solid;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
