@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #242424;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+  border: 1px white solid;
+}
+
+.data {
+  padding: 1rem 0;
+}
